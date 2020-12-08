@@ -1,0 +1,47 @@
+/* Element */
+/* h1 {
+  color: blue;
+} */
+/* Class */
+/* .cool_ul {
+  color: red;
+} */
+/* ID  */
+/* #my_id {
+  color: green;
+} */
+/* Astrisk */
+/* * {
+  border: 1px solid red;
+} */
+/* Descendant */
+/* li a {
+  background: orange;
+} */
+/* Adjacent */
+/* h3 + ul {
+  border: 2px dotted green;
+} */
+/* N-th of  type */
+/* li:nth-of-type(2) {
+  background-color: aqua;
+} */
+/* Attribute */
+/* a[href="https://www.coker.edu"]
+{
+  background: greenyellow;
+} */
+
+ul {
+  color: green;
+}
+li {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+#pink {
+  color: pink;
+}
