@@ -1,5 +1,21 @@
 /* Content Area */
+p {
+  width: 50%;
+  /* Padding Area */
+  padding: 10px 10px 10px 10px;
+  /*
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-top: 100px;
+  padding-bottom: 35px;
+  */
 
+  /*Border Area */
+  border: solid rgb(63, 29, 97) 25px;
+  /* margin area */
+  /* margin: 10px 30px 20px 50px; */
+  margin: 0 auto;
+}
 /* Padding Area */
 
 /* Border Area */
