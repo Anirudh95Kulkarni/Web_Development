@@ -1,0 +1,17 @@
+h1 {
+  margin: 1rem;
+  border-bottom: 2px rgb(11, 14, 95) solid;
+  font-family: "Architects Daughter", cursive, sans-serif;
+  font-size: 3rem;
+}
+img {
+  min-width: 12rem;
+  max-width: 20rem;
+  height: 15rem;
+  margin: 0 0.5rem 2rem 0.5rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
