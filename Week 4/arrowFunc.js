@@ -17,7 +17,7 @@ const noCurly = (a,b) => a*b;
 
 noCurly(3,4);
 
-//Higher order functions
+//Higher order functions - take other functions as input 
 const myFunc = () => {
     console.log("OK 1......2....3.....Let's Jam");
 }
