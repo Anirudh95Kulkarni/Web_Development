@@ -1,0 +1,26 @@
+.complete {
+  text-decoration: line-through;
+}
+
+.showDeleteButton {
+  max-width: 1em;
+  max-height: 1em;
+}
+
+.hideDeleteButton {
+  display: none;
+}
+
+.hideInput {
+  display: none;
+}
+
+#addButton {
+  max-height: 3em;
+  max-width: 3em;
+}
+
+#newTodo {
+  width: 10em;
+  height: 3em;
+}
