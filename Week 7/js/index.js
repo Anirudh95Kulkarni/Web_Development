@@ -17,14 +17,14 @@ const markComplete = (ele) => {
 //Create delete option for each list
 const addDeleteImage = (li) => {
     let img = document.createElement("img");
-    img.setAttribute("src", "https://e7.pngegg.com/pngimages/773/678/png-clipart-red-cross-illustration-x-mark-symbol-cross-x-mark-miscellaneous-angle.png");
+    img.setAttribute("src", "https://cdn.onlinewebfonts.com/svg/img_275374.png");
     img.setAttribute("alt", "Delete Button");
     img.classList.add("hideDeleteButton");
     li.appendChild(img);
 }
 //option to delete stuff in case mouse is over the list item
 const deletableTask = (li) => {
-    li.style.color = "orange";
+    li.style.color = "rgb(54, 94, 52)";
         li.getElementsByTagName("img")[0].classList.remove("hideDeleteButton");
         li.getElementsByTagName("img")[0].classList.add("showDeleteButton");
         li.getElementsByTagName("img")[0].addEventListener("click", function(){

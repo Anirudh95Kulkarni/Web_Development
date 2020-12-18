@@ -1,3 +1,52 @@
+body {
+  background-color: brown;
+}
+h1 {
+  display: inline;
+  align-self: center;
+  font-family: "Langar", cursive;
+  font-size: 350%;
+  margin-top: 2%;
+}
+img {
+  display: inline;
+  justify-self: flex-end;
+  max-width: 4rem;
+  max-height: 4rem;
+}
+ul {
+  font-size: 250%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 0%;
+  background-color: goldenrod;
+}
+li {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  border: 1px 1px solid line black;
+  font-family: "Caveat", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+}
+.tasks {
+  text-align: center;
+  min-width: 40%;
+  min-height: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: block;
+}
+.hideInput {
+  display: none;
+}
 .complete {
   text-decoration: line-through;
 }
@@ -11,16 +60,225 @@
   display: none;
 }
 
+#newTodo {
+  min-height: 5%;
+  min-width: 20%;
+}
+
+#submit {
+  background-color: goldenrod;
+  border-radius: 5%;
+}
+body {
+  background-color: brown;
+}
+h1 {
+  display: inline;
+  align-self: center;
+  font-family: "Langar", cursive;
+  font-size: 350%;
+  margin-top: 2%;
+}
+img {
+  display: inline;
+  justify-self: flex-end;
+  max-width: 4rem;
+  max-height: 4rem;
+}
+ul {
+  font-size: 250%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 0%;
+  background-color: goldenrod;
+}
+li {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  border: 1px 1px solid line black;
+  font-family: "Caveat", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+}
+.tasks {
+  text-align: center;
+  min-width: 40%;
+  min-height: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: block;
+}
 .hideInput {
   display: none;
 }
+.complete {
+  text-decoration: line-through;
+}
 
-#addButton {
-  max-height: 3em;
-  max-width: 3em;
+.showDeleteButton {
+  max-width: 1em;
+  max-height: 1em;
+}
+
+.hideDeleteButton {
+  display: none;
 }
 
 #newTodo {
-  width: 10em;
-  height: 3em;
+  min-height: 5%;
+  min-width: 20%;
+}
+
+#submit {
+  background-color: goldenrod;
+  border-radius: 5%;
+}
+body {
+  background-color: brown;
+}
+h1 {
+  display: inline;
+  align-self: center;
+  font-family: "Langar", cursive;
+  font-size: 350%;
+  margin-top: 2%;
+}
+img {
+  display: inline;
+  justify-self: flex-end;
+  max-width: 4rem;
+  max-height: 4rem;
+}
+ul {
+  font-size: 250%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 0%;
+  background-color: goldenrod;
+}
+li {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  border: 1px 1px solid line black;
+  font-family: "Caveat", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+}
+.tasks {
+  text-align: center;
+  min-width: 40%;
+  min-height: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: block;
+}
+.hideInput {
+  display: none;
+}
+.complete {
+  text-decoration: line-through;
+}
+
+.showDeleteButton {
+  max-width: 1em;
+  max-height: 1em;
+}
+
+.hideDeleteButton {
+  display: none;
+}
+
+#newTodo {
+  min-height: 5%;
+  min-width: 20%;
+}
+
+#submit {
+  background-color: goldenrod;
+  border-radius: 5%;
+}
+body {
+  background-color: brown;
+}
+h1 {
+  display: inline;
+  align-self: center;
+  font-family: "Langar", cursive;
+  font-size: 350%;
+  margin-top: 2%;
+}
+img {
+  display: inline;
+  justify-self: flex-end;
+  max-width: 4rem;
+  max-height: 4rem;
+}
+ul {
+  font-size: 250%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 0%;
+  background-color: goldenrod;
+}
+li {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  border: 1px 1px solid line black;
+  font-family: "Caveat", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+}
+.tasks {
+  text-align: center;
+  min-width: 40%;
+  min-height: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: block;
+}
+.hideInput {
+  display: none;
+}
+.complete {
+  text-decoration: line-through;
+}
+
+.showDeleteButton {
+  max-width: 1em;
+  max-height: 1em;
+}
+
+.hideDeleteButton {
+  display: none;
+}
+
+#newTodo {
+  min-height: 5%;
+  min-width: 20%;
+}
+
+#submit {
+  background-color: goldenrod;
+  border-radius: 5%;
 }

@@ -37,7 +37,7 @@ const reset = () => {
         }
     }
     title.style.backgroundColor = "steelblue";
-    message.textContent ="";
+    message.textContent = "";
 }
 
 //------------------------------------------------------------
