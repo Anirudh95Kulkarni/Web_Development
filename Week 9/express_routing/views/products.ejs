@@ -1,0 +1,7 @@
+<%- include("partial/header") %>
+		<% if(product === "dog_food" || product === "chew_toy" || product=== "treats") { %>
+			<h2> Click here to buy <%= product %>! <h2>
+		<% } else { %>
+			<h2> We dont sell that stuff <h2>
+		<%	} %>
+<%- include("partial/footer") %>

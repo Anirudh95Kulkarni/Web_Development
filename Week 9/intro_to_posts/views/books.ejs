@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>My books</title>
+	</head>
+	<body>
+		<h1>
+			My library
+		</h1>
+		<ul>
+			<% books.forEach((book) => { %>
+				<li><%= `${book.title} - ${book.author}` %></li>
+			<% }) %>
+			
+		</ul>
+		<form action="/books" method="POST">
+			<input type="text" placeholder="Book title" name="title" autofocus>
+			<input type="text" placeholder="Book author" name="author">
+			<button type="submit">
+				Submit
+			</button>
+		</form>
+	</body>
+</html>

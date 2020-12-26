@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>MovieDB</title>
+	</head>
+	<body>
+		<h1>
+			Movie DB website
+		</h1>
+		<ul>
+			<% data.Search.forEach((movie) => { %>
+				<div>	
+					<h3><%= movie.Title %></h3>
+					<a href="<%= movie.Poster %>">Poster link</a>
+				</div>
+			<% }) %>
+		</ul>
+	</body>
+</html>
