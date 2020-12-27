@@ -11,4 +11,5 @@ Work on fullstack development - Frontend with html, css and react, and the backe
  - Week 7: TODO app
  - Week 8: Backend intro
  - Week 9: Backend with node JS
+ - Week 10: Yelp sports or the final project setup and work on databases with MongoDB and mongoose
  
