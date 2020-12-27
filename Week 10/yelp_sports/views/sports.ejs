@@ -1,12 +1,14 @@
 <%- include("partials/header.ejs") %>
 	
 	<div class ="container">
-		<div class = "sports-container">
+		<div class = "row mt-2">
 			<% sports.forEach((sport) => { %>
-			<div class="card">
-				<img class="card-img" src="<%= sport.image %>" alt="Picture of the sport">
-				<h3 class="card-title"><%= sport.title %></h3>
-				<p class="card-description"><%= sport.description %></p>
+			<div class="card m-3">
+				<a href="#">
+					<img class="card-img card-img-top" src="<%= sport.image %>" alt="Picture of the sport">
+				</a>
+				<h3 class="card-title mt-3"><%= sport.title %></h3>
+				<p class="card-text mb-3 mx-3"><%= sport.description %></p>
 			</div>
 			<% }) %>
 		</div>
