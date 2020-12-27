@@ -16,7 +16,7 @@ const carSchema = new mongoose.Schema({
 	needsRepair: Boolean
 });
 
-const Car = mongoose.model("Car", carSchema);
+const Car = mongoose.model("car", carSchema);
 
 const myTruck = new Car ({
 	make: "Cheverolet",

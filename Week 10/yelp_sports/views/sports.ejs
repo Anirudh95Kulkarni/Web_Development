@@ -4,7 +4,7 @@
 		<div class = "row mt-2">
 			<% sports.forEach((sport) => { %>
 			<div class="card m-3">
-				<a href="#">
+				<a href="/sports/<%= sport._id %>">
 					<img class="card-img card-img-top" src="<%= sport.image %>" alt="Picture of the sport">
 				</a>
 				<h3 class="card-title mt-3"><%= sport.title %></h3>

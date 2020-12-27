@@ -21,3 +21,10 @@
 	font-family: 'Roboto';
 	line-height: 1.4;
 }
+/* Show_sports */
+.show_image-container img{
+	width: 100%;
+	height: 80%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
