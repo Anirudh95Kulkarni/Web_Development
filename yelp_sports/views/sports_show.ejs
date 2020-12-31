@@ -1,0 +1,58 @@
+<%- include("partials/header") %>
+<div class="container">
+	<div class="row mt-4">
+		<div class="col-6 show_image-container">
+			<img src="<%= sport.image %>">
+		</div> 
+		<div class="col-6 show_details-container">
+			<h1><%= sport.title %></h1>
+			<p><%= sport.description %></p>
+			<table class="table">
+
+			  <tbody>
+				<tr>
+				  <th scope="row">Prominent Players</th>
+				  <td><%= sport.player %></td>
+				</tr>
+				<tr>
+				  <th scope="row">Genre</th>
+				  <td><%= sport.genre %></td>
+				</tr>
+				<tr>
+				  <th scope="row">Played in Olympics</th>
+				  <td><%= sport.inOlympics %></td>
+				</tr>
+				  <tr>
+				  <th scope="row">Played as a group?</th>
+				  <td><%= sport.groupSport %></td>
+				</tr>
+			  </tbody>
+			</table>
+			<a href="/sports/<%= sport._id %>/edit">
+				<button type ="button" class="btn btn-outline-info btn-lg  btn-block mb-2">
+					Edit
+				</button>
+			</a>
+			<form action="/sports/<%= sport._id %>?_method=DELETE" method="POST">
+				<button type ="submit" class="btn btn-outline-danger btn-lg btn-block mb-2">
+					Delete
+				</button>
+			</form>
+		</div>
+	</div> 
+	<div class="row show_comment-header mt-3">
+		COMMENT header
+	</div>
+	<% comments.forEach((comment) => { %> 
+	<div class ="row show_comment-container py-2">
+		<div class="col-3">
+			<%= comment.user %>
+		</div>
+		<div class="col-9">
+			<%= comment.text %>
+		</div>
+	</div>
+	<% }) %> 
+</div>
+
+<%- include("partials/footer") %>
